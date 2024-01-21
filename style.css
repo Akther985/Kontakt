@@ -22,7 +22,25 @@ body{
 
 .secess-page{
     background-color: #fafafa;
-    margin: 22px 22px 22px 40px;
-    height: 900px;
-    
+    margin: 22px 22px 22px 60px;
+    height: 900px;    
+}
+
+/* our header area style start here  */
+.vorschau-nav{
+    display: flex;
+}
+.vorschau-nav .single-nav{
+    height: 4.438rem;
+    font-size: 3.25rem;
+    margin: 0 2.188rem;
+}
+.our-main-logo{
+    text-align: end;
+    margin-right: 1.125rem;
+    margin-top: 2.286rem;
+}
+.our-menu-nabbar{
+    position: absolute;
+    left: 1.25rem;
 }
