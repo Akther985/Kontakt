@@ -7,7 +7,7 @@
             return false;
         });
         $(".menu-close, .off-canvar-overlay").on("click", function(){
-            $(".off-canvar-menu, .off-canvar-overlay").removeClass("active");
+            $(".off-canvar-menu, .secess-page").removeClass("active");
             return false;
         }); 
          
