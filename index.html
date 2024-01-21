@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vorschau-Html-Responsive-template</title>
     <link rel="icon" href="assets/images/Logo-Vorschau.png"/>
+    <link rel="stylesheet" href="assets/css/all.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/slick.css">
@@ -13,6 +14,18 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
+    <div class="off-canvar-menu">
+        <span class="menu-close"><i class="fa-solid fa-xmark"></i></span>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">Trened</a></li>
+          <li><a href="">Contact</a></li>      
+        </ul>
+      </div>
+      
     <section class="secess-page">
         <!-- our header area start here  -->
         <header>
@@ -20,18 +33,16 @@
                 <div class="our-menu-area">
                     <div class="container-fluid">
                         <div class="row align-items-center">
-                            <div class="col-xl-1">
+                            <div class="col-xl-9">
                                 <div class="our-menu-nabbar">
-                                    <a href="#"><img src="assets/images/menu-bar.svg" alt="menu-bar"></a>
+                                    <a href="" class="menu-trigger" ><img src="assets/images/menu-bar.svg" alt="menu-bar"></a>
                                 </div>
-                            </div>
-                            <!-- our menu bar end here  -->
-                            <div class="col-xl-8">
+                                 <!-- our menu bar end here  -->
                                 <div class="our-mainmenu">
                                     <nav class="nav-bar">
                                         <ul class="vorschau-nav">
-                                            <li class="nav-items"><a class="single-nav" href="#">Wir</a></li>
-                                            <li class="nav-items"><a class="single-nav" href="#">ermöglichen</a>
+                                            <li class="nav-items nav-items-one"><a class="single-nav single-nav-one" href="#">Wir</a></li>
+                                            <li class="nav-items single-nav-items"><a class="single-nav" href="#">ermöglichen</a>
                                                 <ul class="sub-menu">
                                                     <!-- <li class="nav-items"><a class="single-nav" href="#">Wir</a></li>
                                                     <li class="nav-items"><a class="single-nav" href="#">Wir</a></li>
@@ -39,7 +50,7 @@
                                                     <li class="nav-items"><a class="single-nav" href="#">Wir</a></li>                                                     -->
                                                 </ul>
                                             </li>
-                                            <li class="nav-items"><a class="single-nav" href="#">Perspektiven</a></li>
+                                            <li class="nav-items"><a class="single-nav single-navs " href="#">Perspektiven</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -65,6 +76,7 @@
         </footer>
         <!-- our footer area end here  -->
     </section>    
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
 <script src="assets/js/fontawesome.min.js"></script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/slick.min.js"></script>
