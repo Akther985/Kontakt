@@ -18,6 +18,7 @@ html{
 }
 body{
     background-color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .secess-page{
@@ -38,6 +39,7 @@ body{
     color: #0071AF;
     padding: 6px 22px 8px 16px;
     margin-right: 3px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .our-main-logo{
     text-align: end;
@@ -72,13 +74,10 @@ body{
     width: 500px;
     height: 100%;
     margin-left: -500px;
+    z-index: 9;
 }
-.off-canvar-menu.active{
-    background-color: #0071AF;
-    position: fixed;
-    width: 500px;
-    height: 100%;
-    margin-left: 65px;
+.off-canvar-menu.active{ 
+    margin-left: 4.063rem;
     transition: .2s;
 }
 .menu-close{
@@ -89,12 +88,39 @@ body{
     font-size: 22px;
     cursor: pointer;
 }
+/* our hero area style start here  */
 .our-hero-area{
-    background-image: url(assets/images/Group\ 2.png);
-    width: 100%;
-    height: 38.125rem;
-    margin: 0px 22px 26px 0px;
+    background-image: url(assets/images/Group\ 2.png);    
+    height: 24.125rem;
+    margin: 0px 22px 0px 0px;
     background-size: cover;
     background-repeat: no-repeat;    
     background-position: center;
+    
+    
+}
+.hero-heding{
+    padding-top: 2.313rem; 
+    padding-left: 2.375rem;
+    font-family: 'Lora', serif;
+    font-size: 3.25rem;
+    height: 4.188rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.hero-para{
+    font-size: 1.25rem;
+    font-weight:600;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* our hero slider  */
+.slick-next{    
+    left: 25px;    
+}
+.slick-next:before {
+    position: absolute;
+    content:url('assets/images/slider-arows.svg');
+    bottom: -140px;
+    
 }
