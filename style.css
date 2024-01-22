@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:wght@400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap');
 
 *{
     margin: 0;
@@ -66,6 +66,9 @@ body{
 .single-nav-one{
     padding: 6px 29px 8px 16px;
 }
+.single-nav-items{
+    background-color: #FFFFFF;
+}
 
 /* our off-canvar-menu style start here  */
 .off-canvar-menu{
@@ -113,6 +116,27 @@ body{
     font-weight:600;
     font-family: 'Nunito Sans', sans-serif;
 }
+.hero-contact {
+    rotate: -90deg;
+    position: absolute;
+    left: -5.6rem;
+    top: 28rem;
+}
+.hero-contact a{
+    display: block;
+    font-weight: 800;
+    font-size: 0.875rem;
+    line-height: 16.94px;
+    font-family: 'Inter', sans-serif;
+    
+}
+.hero-contact a img{
+    rotate: 90deg;    
+    margin-right: 5px;
+    height: 1.5rem;
+    width: 1.5rem;
+}   
+
 
 /* our hero slider  */
 .slick-next{    
