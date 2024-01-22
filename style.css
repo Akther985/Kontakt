@@ -91,6 +91,7 @@ body{
 }
 .sub-unoder-list{    
     border-left: 2px solid #18944C;
+    height: 70%;
     
 }
 .sub-unoder-list-one{
@@ -191,4 +192,20 @@ body{
     position: absolute;
     content:url('assets/images/slider-arows.svg');
     bottom: -140px;    
+}
+
+/* our ourrent section area style start here  */
+.our-current-section{
+    padding: 34px 25px 34px 28px;
+}
+.current-uparow{
+    position: absolute;
+    left: 0px;
+}
+.current-heder{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4.092rem;
+    color: #F29301;
 }
