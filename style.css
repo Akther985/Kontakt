@@ -24,7 +24,7 @@ body{
 .secess-page{
     background-color: #fafafa;
     margin: 22px 22px 22px 60px;
-    height: 900px;    
+    height: auto;    
 }
 
 /* our header area style start here  */
@@ -196,7 +196,7 @@ body{
 
 /* our ourrent section area style start here  */
 .our-current-section{
-    padding: 34px 25px 34px 28px;
+    padding: 34px 25px 0px 28px;
 }
 .current-uparow{
     position: absolute;
@@ -208,4 +208,54 @@ body{
     font-weight: 700;
     line-height: 4.092rem;
     color: #F29301;
+}
+.current-heding p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.125rem;
+    color: #F29301;
+    margin: 12px;
+    margin-left: 0;
+}
+.current-heding h2{
+    font-size: 1.75rem;
+    line-height:  1.75rem;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.current-heding h2:hover{
+    color: #18944C;
+    transition: .2s;
+}
+.single-current-heding{
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-current{
+    width: 100%;
+}
+.single-current-img img{
+    width: 100%;
+    border-radius: 120px 120px 120px 0px;
+}
+.current-para{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.our-current-btm img{
+    padding: 135px 266px 89px  321px;
+
+}
+.blog-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #18944C;
+    margin-left: 1.75rem;
+}
+.current-heding .blog-para{
+    color: #18944C;
 }
