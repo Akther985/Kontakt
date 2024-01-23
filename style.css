@@ -124,10 +124,11 @@ body{
 .off-canvar-menu{
     background-color: #0071AF;
     position: fixed;
-    width: 500px;
+    width: 1574px;
     height: 100%;
-    margin-left: -500px;
+    margin-left: -1574px;
     z-index: 9;
+    padding: 60px;
 }
 .off-canvar-menu.active{ 
     margin-left: 4.063rem;
@@ -140,6 +141,45 @@ body{
     color: #fff;
     font-size: 22px;
     cursor: pointer;
+}
+.offcanver-items{
+    display: flex;
+    justify-content: space-between;
+}
+.off-canvar-menu-list li a{
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.625rem;
+}
+.off-canvar-submenu{
+    display: flex;
+}
+.off-canvar-submenu li a {
+    font-size: 24px;
+    margin: 10px 50px 10px 0px;
+    display: block;
+}
+.offcanver-items img{
+    height: 180px;
+    width: 180px;
+}
+.off-canvar-submenu li a:hover {
+    color: #F29301;
+    transition: .2s;
+    
+}
+.off-canvar-dwon-list ul{
+    display: flex;
+    margin-top: 100px;
+}
+.off-canvar-dwon-list ul li a{
+    color: #FFFFFF;
+    margin-right: 35px;
+    font-size: 16px;
+}
+.off-canvar-dwon-list ul li a:hover{
+    color: #F29301;
+   
 }
 /* our hero area style start here  */
 .our-hero-area{
@@ -245,9 +285,12 @@ body{
     line-height: 1.75rem;
     font-family: 'Nunito Sans', sans-serif;
 }
-.our-current-btm img{
-    padding: 135px 266px 89px  321px;
-
+.our-current-btm {
+    border-bottom: 1px solid #000000;    
+    width: 800px;
+    margin: auto;
+    margin-top: 135px;
+    margin-bottom: 89px;
 }
 .blog-heading{
     font-size: 3rem;
@@ -388,14 +431,30 @@ body{
     line-height: 28px;
     color: #000000;    
 }
-
-
-
-
-
-
-
 /* our footer area style start here  */
-.our-footer-area{
-    background-color: #F29301;
+.our-footer-section{
+    background-color: #FFFFFF;
+    margin: 91px 0px 22px 0;
+}
+.single-footer-list h2{
+    color: #F29301;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 1.625rem;
+}
+.sub-footer-list li a{
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+    text-transform: capitalize; 
+    margin-bottom: 12px;  
+    display: block; 
+}
+.sub-footer-list li a:hover{
+       color: #18944C;
+}
+.bottom-footer{
+    margin-top: 7.375rem;
 }
