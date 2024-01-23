@@ -160,8 +160,8 @@ body{
     display: block;
 }
 .offcanver-items img{
-    height: 180px;
-    width: 180px;
+    height: 143px;
+    width: 107px;
 }
 .off-canvar-submenu li a:hover {
     color: #F29301;
@@ -457,4 +457,31 @@ body{
 }
 .bottom-footer{
     margin-top: 7.375rem;
+}
+.footer-end-text{
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 20%; 
+    margin-bottom: 32px;   
+}
+.footer-end-line{
+    display: flex;
+    justify-content: space-between;
+
+}
+.single-line-one{
+    background-color: #F29301;
+    height: 10px;
+    width: 33.33%;
+}
+.single-line-tow{
+    background-color: #0071AF;
+    height: 10px;
+    width: 33.33%;
+}
+.single-line-three{
+    background-color: #18944C;
+    height: 10px;
+    width: 33.35%;
 }
