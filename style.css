@@ -327,17 +327,66 @@ body{
     bottom: -115px;
     transition: .1s;
 }
-.single-mask-img-one h2{
+.single-mask-img-one .musk-one-heding{
     position: absolute;
     left: 160px;
     top: 300px;
     z-index: 999;
     color: #FFFFFF;
-}
-.single-mask-img-one:hover h2{    
-    color: #F29301;
     font-family: 'Lora', serif;
     font-weight: 700;
+}
+.single-mask-img-one:hover .musk-one-heding{    
+    color: #F29301;
+    
+}
+.single-mask-img-tow .musk-tow-heding{
+    position: absolute;
+    left: 570px;
+    top: 380px;
+    z-index: 999;
+    color: #FFFFFF;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+.single-mask-img-tow:hover .musk-tow-heding{
+    color: #F29301;
+}
+.single-mask-img-three .musk-three-heding{
+    position: absolute;
+    left: 240px;
+    top: 690px;
+    z-index: 999;
+    color: #FFFFFF;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+.single-mask-img-three:hover .musk-three-heding{
+    color: #F29301;
+}
+.single-mask-hover {
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 100px;
+    left: 270px;
+    padding: 35px 17px 75px 84px;
+    width: 511px;
+    border-radius: 0px 120px 120px 120px;
+    transition: all .3s;
+}
+.single-mask-hover h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000000;    
+}
+.single-mask-hover h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000000;    
 }
 
 
