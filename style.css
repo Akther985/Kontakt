@@ -259,3 +259,94 @@ body{
 .current-heding .blog-para{
     color: #18944C;
 }
+
+/* our mask images area start here  */
+.our-musk-section{
+    padding-bottom: 152px;
+}
+.mask-img-area{
+    position: relative;
+    height: 983px;
+    width: 1124px;
+}
+.single-musk-imgg{
+    position: absolute;
+    left: -55px;
+}
+.single-musk-imgg-two{
+    position: absolute;
+    left: 470px;
+    top: 80px;
+}
+
+.single-musk-imgg-three{
+    position: absolute;
+    right: 390px;
+    bottom: -115px;
+}
+.mask-img-one-hover {
+    display: none;
+}
+.mask-img-tow-hover {
+    display: none;
+}
+.mask-img-three-hover {
+    display: none;
+}
+.single-mask-img-one:hover .single-musk-imgg{
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.single-mask-img-one:hover .mask-img-one-hover{
+    display: block;
+    position: absolute;
+    left: -55px;
+    transition: .1s;
+    top: 0;
+}
+.single-mask-img-tow:hover .single-musk-imgg-two{
+    visibility: hidden;
+    opacity: 0;
+}
+.single-mask-img-tow:hover .mask-img-tow-hover{
+    display: block;
+    position: absolute;
+    left: 470px;
+    top: 80px;
+    transition: .1s;
+}
+.single-mask-img-three:hover .single-musk-imgg-three{
+    visibility: hidden;
+    opacity: 0;
+}
+.single-mask-img-three:hover .mask-img-three-hover{
+    display: block;
+    position: absolute;
+    right: 390px;
+    bottom: -115px;
+    transition: .1s;
+}
+.single-mask-img-one h2{
+    position: absolute;
+    left: 160px;
+    top: 300px;
+    z-index: 999;
+    color: #FFFFFF;
+}
+.single-mask-img-one:hover h2{    
+    color: #F29301;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+/* our footer area style start here  */
+.our-footer-area{
+    background-color: #F29301;
+}
