@@ -20,6 +20,9 @@
              margin: 22px 0px 22px 60px;
         
     }
+    .off-canvar-menu{
+        display: none;
+    }
     .main-logo{
         height: 200px;
         width: 200px;
@@ -31,6 +34,9 @@
     .vorschau-nav {
         display: block;
         margin-top: 60px;
+    }
+    .sub-menu{
+        display: none;
     }
     
     .our-menu-nabbar {        
@@ -47,6 +53,39 @@
     .current-uparow {        
         display: none;
     }
-    
+    .hero-contact {
+        rotate: -90deg;
+        position: absolute;
+        left: -11.6rem;
+        top: 28rem;
+        display: flex;
+       
+    }
+    .hero-blog{
+        display: block;
+    }
+    .hero-contact a {
+        margin-right: 20px;
+       
+    }
+    .our-current-section {
+        padding: 34px 0px 0px 0px;
+    }
+    .current-heding h2 a {
+        font-size: 20px;
+        line-height: 1.75rem;        
+    }
+    .our-current-btm {        
+        display: none;
+    }
+    .our-blog-section{
+        display: none;
+    }
+    .our-musk-section {        
+        display: none;
+    }
+    .single-footer-list{
+        margin: 0 40px;
+    }
 
 }
