@@ -124,26 +124,31 @@ body{
     
 }
 /* our off-canvar-menu style start here  */
-.off-canvar-menu{
-    background-color: #0071AF;
+.off-canvar-menu {
+    background-image: url(assets/images/Desktop-nav-bg.png);
     position: fixed;
     width: 1574px;
     height: 100%;
-    margin-left: -1574px;
+    margin-left: -1575px;
     z-index: 9;
     padding: 60px;
+    left: -65px;
 }
 .off-canvar-menu.active{ 
     margin-left: 4.063rem;
     transition: .2s;
 }
-.menu-close{
+.menu-close {
     position: absolute;
-    right: 20px;
-    top: 20px;
+    left: 15px;
+    top: 85px;
     color: #fff;
     font-size: 22px;
     cursor: pointer;
+}
+.off-canvar-menu-list{
+    margin-left: 20px;
+
 }
 .offcanver-items{
     display: flex;

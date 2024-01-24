@@ -25,16 +25,27 @@
         width: 200px;
     }
     .vorschau-nav .single-nav {
-        font-size: 1rem;        
+        font-size: 1.3rem;  
+        padding: 6px 22px 8px 0px;     
     }
     .vorschau-nav {
         display: block;
+        margin-top: 60px;
     }
+    
     .our-menu-nabbar {        
         top: 3.75rem;
     }
     .our-main-logo {        
         margin-top: -3rem;
+    }
+    /* slider area start here  */
+
+    .slick-slider {        
+        display: none;
+    }
+    .current-uparow {        
+        display: none;
     }
     
 
