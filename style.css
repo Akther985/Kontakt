@@ -31,18 +31,21 @@ body{
 .vorschau-nav{
     display: flex;
 }
-.vorschau-nav .single-nav{
-    height: 4.438;
-    font-size: 3.25rem;
-    margin-top: 5.563rem;    
+.our-mainmenu{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.vorschau-nav .single-nav{    
+    font-size: 3.25rem;    
     font-weight: 700;
     color: #0071AF;
     padding: 6px 22px 8px 16px;
     margin-right: 3px;
     font-family: 'Nunito Sans', sans-serif;
+   
 }
-.our-main-logo{
-    text-align: end;
+.our-main-logo{    
     margin-right: 1.125rem;
     margin-top: 2.286rem;
 }
@@ -249,14 +252,14 @@ body{
     line-height: 4.092rem;
     color: #F29301;
 }
-.current-heding p{
+.current-heding a{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.125rem;
     color: #F29301;
     margin: 12px;
     margin-left: 0;
 }
-.current-heding h2{
+.current-heding h2 a{
     font-size: 1.75rem;
     line-height:  1.75rem;
     color: #000000;

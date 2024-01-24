@@ -15,7 +15,27 @@
 }
 /* mobile layout:320px*/
 @media only screen and (max-width:767px){
-
-
+    .secess-page {
+         background-color: inherit;
+             margin: 22px 0px 22px 60px;
+        
+    }
+    .main-logo{
+        height: 200px;
+        width: 200px;
+    }
+    .vorschau-nav .single-nav {
+        font-size: 1rem;        
+    }
+    .vorschau-nav {
+        display: block;
+    }
+    .our-menu-nabbar {        
+        top: 3.75rem;
+    }
+    .our-main-logo {        
+        margin-top: -3rem;
+    }
+    
 
 }
