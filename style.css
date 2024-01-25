@@ -19,15 +19,15 @@ html{
 body{
     background-color: #ffffff;
     font-family: 'Nunito Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    overflow-x: hidden;
 }
-
-.secess-page{
-    background-color: #fafafa;
-    margin: 22px 22px 22px 60px;
-    height: auto;    
-}
-
 /* our header area style start here  */
+.our-header-section{
+    margin: 22px 22px 22px 60px;
+}
 .vorschau-nav{
     display: flex;
 }
@@ -190,6 +190,9 @@ body{
    
 }
 /* our hero area style start here  */
+.our-hero-section{
+    margin: 22px 22px 22px 60px;
+}
 .our-hero-area{
     background-image: url(assets/images/Group\ 2.png);    
     height: 24.125rem;
@@ -242,7 +245,7 @@ body{
     bottom: -140px;    
 }
 /* our mobile hero area  */
-.hero-blog {
+.hero-blog {    
     background-color: #FFFFFF;   
     margin-top: 100px;
     display:none;
@@ -252,6 +255,7 @@ body{
     background-image: url(assets/images/Group26.png);    
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 60px;
 }
 .single-hero-blog-img h2 {
     color: #FFFFFF;
@@ -276,8 +280,9 @@ body{
 }
 
 /* our ourrent section area style start here  */
-.our-current-section{
+.our-current-section {
     padding: 34px 25px 0px 28px;
+    margin: 22px 22px 22px 60px;
 }
 .current-uparow{
     position: absolute;
@@ -525,4 +530,7 @@ body{
     background-color: #18944C;
     height: 10px;
     width: 33.35%;
+}
+.mobile-footer{
+    display: none;
 }
