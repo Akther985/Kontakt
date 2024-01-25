@@ -10,6 +10,15 @@
             $(".off-canvar-menu, .secess-page").removeClass("active");
             return false;
         }); 
+        // mobile off canver menu 
+        $(".menu-trigger").on("click", function(){
+          $(".off-canvar-mobile-menu, .off-canvar-overlay").addClass("active");
+          return false;
+      });
+      $(".menu-close").on("click", function(){
+          $(".off-canvar-mobile-menu").removeClass("active");
+          return false;
+      }); 
         $('.responsive').slick({
             dots:false,
             infinite: true,

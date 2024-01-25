@@ -115,5 +115,9 @@
     .single-footer-list{
         margin-left: 60px;
     }
+    /* off canver mobile menu  */
+.off-canvar-mobile-menu{
+    display: block;
+}
 
 }

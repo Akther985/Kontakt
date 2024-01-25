@@ -141,7 +141,7 @@ body{
 .menu-close {
     position: absolute;
     left: 15px;
-    top: 85px;
+    top: 100px;
     color: #fff;
     font-size: 22px;
     cursor: pointer;
@@ -188,6 +188,25 @@ body{
 .off-canvar-dwon-list ul li a:hover{
     color: #F29301;
    
+}
+
+/* off canver mobile menu  */
+.off-canvar-mobile-menu{
+    display: none;
+}
+.off-canvar-mobile-menu{
+    background-image: url(assets/images/Desktop-nav-bg.png);
+    position: fixed;
+    width: 1574px;
+    height: 100%;
+    margin-left: -1575px;
+    z-index: 9;
+    padding: 60px;
+    left: -65px;
+}
+.off-canvar-mobile-menu.active{ 
+    margin-left: 4.063rem;
+    transition: .2s;
 }
 /* our hero area style start here  */
 .our-hero-section{
