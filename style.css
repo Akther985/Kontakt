@@ -583,3 +583,14 @@ body{
 .mobile-footer{
     display: none;
 }
+
+
+/* our content page style start here  */
+.hero-contact-link{
+    display: none;
+}
+.content-hero-btn{
+    background-color: #EDEDED;
+    width: 13.75rem;
+    height: 4.313rem;
+}
