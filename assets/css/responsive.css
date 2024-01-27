@@ -156,14 +156,10 @@
 }
 .off-canvar-dwon-list ul {
     display: block;
-    margin-top: 100px;
+    
 }
-.off-canvar-dwon-list {
-    margin-top: 200px;
+.off-canvar-dwon-list {    
     display: block;
-}
-.offcanver-mobile-nav-menu{
-    margin-top: 100px;
 }
 .mobile-menu-navlist {
     color: #FFFFFF;
