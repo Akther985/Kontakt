@@ -176,5 +176,11 @@
     height: 400px;
     background-color: none;
 }
+.mean-expand{
+	display: none;
+}
+.mean-clicked{
+	display: none;
+}
 
 }

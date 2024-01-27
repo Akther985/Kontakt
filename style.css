@@ -333,9 +333,9 @@ body{
     padding: 34px 25px 0px 28px;
     margin: 22px 22px 22px 60px;
 }
-.current-uparow{
+.current-uparow {
     position: absolute;
-    left: 0px;
+    left: 12px;
 }
 .current-heder{
     font-family: 'Nunito Sans', sans-serif;
@@ -593,4 +593,9 @@ body{
     background-color: #EDEDED;
     width: 13.75rem;
     height: 4.313rem;
+}
+.content-hero-contat{   
+    left: -2.6rem;
+    top: 19rem;
+   
 }
