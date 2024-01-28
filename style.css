@@ -589,13 +589,59 @@ body{
 .hero-contact-link{
     display: none;
 }
-.content-hero-btn{
+.content-hero-area a{
+    font-size: 0.875rem;
+    color: #18944C;
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 13.5rem;
+    align-items: center;
+}
+.content-hero-area h2{
+    font-size: 4.5rem;
+    color: #F29301;
+    font-weight: 800;
+}
+.content-hero-btn {
     background-color: #EDEDED;
     width: 13.75rem;
     height: 4.313rem;
+    border-radius: 30px 30px 30px 0px;
 }
 .content-hero-contat{   
     left: -2.6rem;
     top: 19rem;
    
+}
+.content-hero-btn{
+    color: #F29301;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.our-content-area, .content-area{
+    margin: 22px 22px 22px 60px;
+}
+.content-area-header h1{
+    font-size: 3rem;
+    color: #F29301;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    line-height: 65.47px;
+
+}
+.content-area-header h2{
+    font-size: 1.75rem;
+    color: #F29301;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    
+}
+.content-area-header h3{
+    font-size: 1.125rem;
+    color: #F29301;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    
 }
