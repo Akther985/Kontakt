@@ -29,7 +29,9 @@
     .blog-heading {
         font-size: 1.6rem;        
     }
-
+    
+    
+    
 }
 /* mobile layout:320px*/
 @media only screen and (max-width:767px){
@@ -51,6 +53,7 @@
     .vorschau-nav {
         display: block;
         margin-top: 60px;
+        margin-left: 30px;
     }
     .sub-menu{
         display: none;
@@ -79,10 +82,12 @@
     .hero-contact {
         rotate: -90deg;
         position: absolute;
-        left: -11.6rem;
+        left: -4rem;
         top: 28rem;
         display: flex;
-       
+    }
+    .hero-contact-home{
+        left: -12rem;
     }
     .hero-blog{
         display: block;
@@ -177,6 +182,65 @@
 }
 .mean-clicked{
 	display: none;
+}
+
+/* our content page style start here  */
+.content-hero-area h2 {
+    font-size: 2.5rem;    
+}
+.content-area-header h1 {
+    font-size: 2rem;    
+    line-height: 2rem;
+}
+.our-content-area, .content-area {
+    margin: 22px 22px 22px 32px;
+}
+.our-current-section {    
+    margin: 22px 22px 22px 32px;
+}
+.our-header-section {
+    margin: 22px 22px 22px 32px;
+}
+.our-hero-section {
+    margin: 22px 22px 22px 32px;
+}
+.single-content{
+    width: 100%;
+}
+.single-content img{
+    width: 100%;
+}
+.bottom-bannar{
+    display: none;
+}
+.top-bannar img {
+    width: 65.688rem;
+    border-radius: 0px 120px 0px 120px;
+    float: right;    
+    margin-bottom: 87px;
+    margin-right: 0;
+    float: none;
+    
+    border-radius: 0;
+}
+.bannar-top-hover {
+    position: absolute;
+    background-color: #18944C;
+    padding: 20px 20px 30px 20px;
+    top: 8.5rem;
+    left: 0rem;
+    text-align: center;
+}
+.bannar-top-hover p{
+    font-size:0.875rem;    
+   
+}
+.bannar-top-hover a {
+    display: block;
+    width: 32px;
+    height: 32px;  
+    margin-left: 6rem;
+    
 }
 
 }
