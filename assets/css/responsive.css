@@ -229,14 +229,16 @@
     /* off canver mobile menu  */
 .off-canvar-mobile-menu{
     display: block;
+    padding: 60px 20px;
+
 }
 .offcanver-items img {
     height: 80px;
-    width: 80px;
+    width: 60px;
     margin-top: -25px;
 }
 .off-canvar-mobile-menu .menu-close{
-    top: 65px;
+    top: 40px;
 
 }
 .mobile-sub-menu, .mobile-sub-menu-three, .mobile-sub-menu-one{
@@ -342,5 +344,23 @@
     margin-left: 6rem;
     
 }
+.mobile-serch-page{
+    margin-top: 147px;
+    display: block;
+    margin-left: 100px;
+}
+.off-canvar-dwon-list {
+    display: block;
+    text-align: center;
+    margin-top: 147px;
+}
+.off-canvar-dwon-list .search-page-list {
+    margin-top: 40px;
+    display: block;
+}
+.off-canvar-dwon-list h2{
+    color: #FFFFFF;
+}
+
 
 }

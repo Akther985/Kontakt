@@ -26,8 +26,10 @@ body{
 }
 /* our header area style start here  */
 .our-header-section{
-    margin: 22px 22px 22px 60px;
+    margin: 22px 22px 0px 60px;
+    background-color: #f5f5f5;
 }
+
 .vorschau-nav{
     display: flex;
 }
@@ -240,7 +242,8 @@ body{
 }
 /* our hero area style start here  */
 .our-hero-section{
-    margin: 22px 22px 22px 60px;
+    padding: 22px 22px 22px 60px;
+    background-color: #f5f5f5;
 }
 
 .our-hero-area{
@@ -693,8 +696,9 @@ body{
     border-radius: 120px 0px 120px 0px;
     margin-left: 100px;
 }
-.bottom-bannar{
+.bottom-bannar {
     position: relative;
+    margin-bottom: 60px;
 }
 .bannar-bottom-hover{
     position: absolute;
@@ -744,4 +748,35 @@ body{
     position: absolute;
     left: -2.6rem;
     top: 28rem;
+}
+.mobile-serch .search-img{
+    height: 48px;
+    width: 74px;
+}
+.form-control {
+    display: block;
+    width: 289px;
+    padding:  25px 15px 15px 15px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-top: 40px;    
+}
+.Logo-white-search-page{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+main{
+    background-color: #f5f5f5;
+    margin: 0px 22px 22px 60px;
 }
