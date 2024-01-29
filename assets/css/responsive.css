@@ -1,5 +1,56 @@
 /*destop-leyout-*/
+@media only screen and (min-width: 1400px) and (max-width:1600px){
+    .off-canvar-menu {       
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin-left: -1110%;
+        z-index: 9;
+        padding: 60px 40px 60px 60px;
+        left: -65px;
+        overflow-x: hidden;
+    }
+    .off-canvar-mobile-menu.active{ 
+        margin-left: 4.063rem;
+        transition: .2s;
+    }
+    .off-canvar-menu.active{ 
+        margin-left: 4.063rem;
+        transition: .2s;
+    }   
+    .off-canvar-submenu li a {
+        font-size: 24px;
+        margin: 10px 20px 10px 0px;
+        display: block;
+    }
+    
+    
+}
 @media only screen and (min-width: 1200px) and (max-width:1400px){
+    .off-canvar-menu {       
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin-left: -1110%;
+        z-index: 9;
+        padding: 60px 20px 60px 60px;
+        left: -65px;
+        overflow-x: hidden;
+    }
+    .off-canvar-mobile-menu.active{ 
+        margin-left: 4.063rem;
+        transition: .2s;
+    }
+    .off-canvar-menu.active{ 
+        margin-left: 4.063rem;
+        transition: .2s;
+    }   
+    .off-canvar-submenu li a {
+        font-size: 18px;
+        margin: 10px 20px 10px 0px;
+        display: block;
+    }
+    
     
 }
 /*laptop-leyout-*/
@@ -13,6 +64,29 @@
     .blog-heading {
         font-size: 2rem;        
     } 
+    .off-canvar-menu {       
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin-left: -1110%;
+        z-index: 9;
+        padding: 60px 20px 60px 60px;
+        left: -65px;
+        overflow-x: hidden;
+    }
+    .off-canvar-mobile-menu.active{ 
+        margin-left: 4.063rem;
+        transition: .2s;
+    }
+    .off-canvar-menu.active{ 
+        margin-left: 4.063rem;
+        transition: .2s;
+    }   
+    .off-canvar-submenu li a {
+        font-size: 18px;
+        margin: 10px 20px 10px 0px;
+        display: block;
+    }
     
 }
 
@@ -29,8 +103,34 @@
     .blog-heading {
         font-size: 1.6rem;        
     }
-    
-    
+    .off-canvar-menu {       
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin-left: -1110%;
+        z-index: 9;
+        padding: 60px 20px 60px 60px;
+        left: -65px;
+        overflow-x: hidden;
+    }
+    .off-canvar-mobile-menu.active{ 
+        margin-left: 4.063rem;
+        transition: .2s;
+    }
+    .off-canvar-menu.active{ 
+        margin-left: 4.063rem;
+        transition: .2s;
+    }   
+    .off-canvar-submenu li a {
+        font-size: 16px;
+        margin: 10px 10px 10px 0px;
+        display: block;
+    } 
+    .offcanver-items img {
+        height: 100px;
+        width: 80px;
+       
+    }    
     
 }
 /* mobile layout:320px*/

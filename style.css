@@ -167,9 +167,10 @@ body{
     margin: 10px 50px 10px 0px;
     display: block;
 }
-.offcanver-items img{
+.offcanver-items img {
     height: 143px;
     width: 107px;
+    margin-top: -30px;
 }
 .off-canvar-submenu li a:hover {
     color: #F29301;
@@ -734,4 +735,13 @@ body{
 }
 .single-content img{
     width: 100%;
+}
+
+
+/* our search page style start here  */
+.hero-contact-search {
+    rotate: -90deg;
+    position: absolute;
+    left: -2.6rem;
+    top: 28rem;
 }
