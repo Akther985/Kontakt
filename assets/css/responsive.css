@@ -130,7 +130,37 @@
         height: 100px;
         width: 80px;
        
-    }    
+    }  
+    .bottom-bannar{
+        display: none;
+    }
+    .top-bannar img {
+        width: 65.688rem;
+        border-radius: 0px 120px 0px 120px;
+        float: right;
+        margin-right: 0px;
+        margin-bottom: 87px;
+    }
+    .bannar-top-hover {
+        position: absolute;
+        text-align: center;
+        background-color: #18944C;
+        padding: 65px 48px 127px 48px;
+        top: 6.5rem;
+        left: 0rem;
+        width: 100%;
+        height: 330px;
+
+    }
+    .bannar-top-hover a {
+        display: block;
+        width: 60px;
+        height: 60px;
+        margin-left: 15rem;
+        margin-top: 20px;
+    }
+    
+   
     
 }
 /* mobile layout:320px*/
@@ -142,17 +172,21 @@
     .off-canvar-menu{
         display: none;
     }
-    .main-logo{
-        height: 200px;
-        width: 200px;
+    .main-logo {
+        height: 88px;
+       
+    }
+    .our-main-logo {
+        margin-right: 0rem;
+        margin-top: 0rem;
     }
     .vorschau-nav .single-nav {
-        font-size: 1.3rem;  
-        padding: 6px 22px 8px 0px;     
+        font-size: 2.125rem;
+        padding: 6px 22px 8px 0px;
     }
     .vorschau-nav {
         display: block;
-        margin-top: 60px;
+        margin-top: 100px;
         margin-left: 30px;
     }
     .sub-menu{
@@ -165,11 +199,13 @@
     .our-footer-section {        
         margin: 40px 0px 0px 0;
     }
-    .our-menu-nabbar {        
-        top: 3.75rem;
+    .our-menu-nabbar {
+        top: 2.75rem;
     }
     .our-main-logo {        
-        margin-top: -3rem;
+        position: absolute;
+        top: 20px;
+        right: 20px;
     }
     /* slider area start here  */
 
@@ -294,17 +330,16 @@
     font-size: 2rem;    
     line-height: 2rem;
 }
-.our-content-area, .content-area {
-    margin: 22px 22px 22px 32px;
-}
-.our-current-section {    
-    margin: 22px 22px 22px 32px;
-}
+
 .our-header-section {
-    margin: 22px 22px 22px 32px;
+    margin: 0;
+    padding: 22px 22px 22px 32px;
+    background-color: #FFFFFF;
 }
 .our-hero-section {
-    margin: 22px 22px 22px 32px;
+    padding: 22px 22px 22px 32px;
+    background: #ffffff;
+    margin: 0;
 }
 .single-content{
     width: 100%;
@@ -360,6 +395,28 @@
 }
 .off-canvar-dwon-list h2{
     color: #FFFFFF;
+}
+main {
+    background-color: #FFFFFF;
+   margin: 0;
+}
+.content-hero-contat{
+    display: none;
+}
+.content-vorschau-nav{
+    display: none;
+}
+.content-hero-btn{
+    display: none;
+}
+.content-hero-area{
+    margin-top: 64px;
+}
+.hero-contact-search{
+    display: none;
+}
+.current-heder {    
+    margin-top: 0px;
 }
 
 
